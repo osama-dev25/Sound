@@ -1,0 +1,86 @@
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* العنوان */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* قسم المعلومات */
+.info {
+    margin: 2rem 0;
+    width: 80%;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+/* قسم الصور */
+.images {
+    width: 80%;
+    margin: 2rem 0;
+}
+
+.image-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.image-slider img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* زر التحميل */
+.download {
+    margin: 2rem 0;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #45a049;
+}
